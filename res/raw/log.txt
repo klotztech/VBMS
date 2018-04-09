@@ -1,145 +1,145 @@
-I/BcService: 输出140:  编号:0   数据-86
-I/BcService: 输出140:  编号:1   数据85
-I/BcService: 输出140:  编号:2   数据-86
-I/BcService: 输出140:  编号:3   数据-1
-I/BcService: 输出140:  编号:4   数据3
-I/BcService: 输出140:  编号:5   数据9
-I/BcService: 输出140:  编号:6   数据12
-I/BcService: 输出140:  编号:7   数据-87
-I/BcService: 输出140:  编号:8   数据12
-I/BcService: 输出140:  编号:9   数据-83
-I/BcService: 输出140:  编号:10  数据12
-I/BcService: 输出140:  编号:11  数据-86
-I/BcService: 输出140:  编号:12  数据12
-I/BcService: 输出140:  编号:13  数据-86
-I/BcService: 输出140:  编号:14  数据12
-I/BcService: 输出140:  编号:15  数据-93
-I/BcService: 输出140:  编号:16  数据3
-I/BcService: 输出140:  编号:17  数据-99
-I/BcService: 输出140:  编号:18  数据1
-I/BcService: 输出140:  编号:19  数据-16
-I/BcService: 输出140:  编号:20  数据12
-I/BcService: 输出140:  编号:21  数据-80
-I/BcService: 输出140:  编号:22  数据12
-I/BcService: 输出140:  编号:23  数据-84
-I/BcService: 输出140:  编号:24  数据12
-I/BcService: 输出140:  编号:25  数据-84
-I/BcService: 输出140:  编号:26  数据12
-I/BcService: 输出140:  编号:27  数据-86
-I/BcService: 输出140:  编号:28  数据12
-I/BcService: 输出140:  编号:29  数据-81
-I/BcService: 输出140:  编号:30  数据12
-I/BcService: 输出140:  编号:31  数据-89
-I/BcService: 输出140:  编号:32  数据12
-I/BcService: 输出140:  编号:33  数据-89
-I/BcService: 输出140:  编号:34  数据12
-I/BcService: 输出140:  编号:35  数据-97
-I/BcService: 输出140:  编号:36  数据12
-I/BcService: 输出140:  编号:37  数据-84
-I/BcService: 输出140:  编号:38  数据12
-I/BcService: 输出140:  编号:39  数据-105
-I/BcService: 输出140:  编号:40  数据12
-I/BcService: 输出140:  编号:41  数据-86
-I/BcService: 输出140:  编号:42  数据12
-I/BcService: 输出140:  编号:43  数据-84
-I/BcService: 输出140:  编号:44  数据12
-I/BcService: 输出140:  编号:45  数据-86
-I/BcService: 输出140:  编号:46  数据12
-I/BcService: 输出140:  编号:47  数据-85
-I/BcService: 输出140:  编号:48  数据12
-I/BcService: 输出140:  编号:49  数据-80
-I/BcService: 输出140:  编号:50  数据12
+I/BcService: Output 140:  Offset: 0   Data: -86
+I/BcService: Output 140:  Offset: 1   Data: 85
+I/BcService: Output 140:  Offset: 2   Data: -86
+I/BcService: Output 140:  Offset: 3   Data: -1
+I/BcService: Output 140:  Offset: 4   Data: 3
+I/BcService: Output 140:  Offset: 5   Data: 9
+I/BcService: Output 140:  Offset: 6   Data: 12
+I/BcService: Output 140:  Offset: 7   Data: -87
+I/BcService: Output 140:  Offset: 8   Data: 12
+I/BcService: Output 140:  Offset: 9   Data: -83
+I/BcService: Output 140:  Offset: 10  Data: 12
+I/BcService: Output 140:  Offset: 11  Data: -86
+I/BcService: Output 140:  Offset: 12  Data: 12
+I/BcService: Output 140:  Offset: 13  Data: -86
+I/BcService: Output 140:  Offset: 14  Data: 12
+I/BcService: Output 140:  Offset: 15  Data: -93
+I/BcService: Output 140:  Offset: 16  Data: 3
+I/BcService: Output 140:  Offset: 17  Data: -99
+I/BcService: Output 140:  Offset: 18  Data: 1
+I/BcService: Output 140:  Offset: 19  Data: -16
+I/BcService: Output 140:  Offset: 20  Data: 12
+I/BcService: Output 140:  Offset: 21  Data: -80
+I/BcService: Output 140:  Offset: 22  Data: 12
+I/BcService: Output 140:  Offset: 23  Data: -84
+I/BcService: Output 140:  Offset: 24  Data: 12
+I/BcService: Output 140:  Offset: 25  Data: -84
+I/BcService: Output 140:  Offset: 26  Data: 12
+I/BcService: Output 140:  Offset: 27  Data: -86
+I/BcService: Output 140:  Offset: 28  Data: 12
+I/BcService: Output 140:  Offset: 29  Data: -81
+I/BcService: Output 140:  Offset: 30  Data: 12
+I/BcService: Output 140:  Offset: 31  Data: -89
+I/BcService: Output 140:  Offset: 32  Data: 12
+I/BcService: Output 140:  Offset: 33  Data: -89
+I/BcService: Output 140:  Offset: 34  Data: 12
+I/BcService: Output 140:  Offset: 35  Data: -97
+I/BcService: Output 140:  Offset: 36  Data: 12
+I/BcService: Output 140:  Offset: 37  Data: -84
+I/BcService: Output 140:  Offset: 38  Data: 12
+I/BcService: Output 140:  Offset: 39  Data: -105
+I/BcService: Output 140:  Offset: 40  Data: 12
+I/BcService: Output 140:  Offset: 41  Data: -86
+I/BcService: Output 140:  Offset: 42  Data: 12
+I/BcService: Output 140:  Offset: 43  Data: -84
+I/BcService: Output 140:  Offset: 44  Data: 12
+I/BcService: Output 140:  Offset: 45  Data: -86
+I/BcService: Output 140:  Offset: 46  Data: 12
+I/BcService: Output 140:  Offset: 47  Data: -85
+I/BcService: Output 140:  Offset: 48  Data: 12
+I/BcService: Output 140:  Offset: 49  Data: -80
+I/BcService: Output 140:  Offset: 50  Data: 12
 
-I/BcService: 输出140:  编号:51  数据-82
-I/BcService: 输出140:  编号:52  数据12
-I/BcService: 输出140:  编号:53  数据-80
-I/BcService: 输出140:  编号:54  数据0
-I/BcService: 输出140:  编号:55  数据0
-I/BcService: 输出140:  编号:56  数据0
-I/BcService: 输出140:  编号:57  数据0
-I/BcService: 输出140:  编号:58  数据0
-I/BcService: 输出140:  编号:59  数据0
-I/BcService: 输出140:  编号:60  数据0
-I/BcService: 输出140:  编号:61  数据0
-I/BcService: 输出140:  编号:62  数据0
-I/BcService: 输出140:  编号:63  数据0
-I/BcService: 输出140:  编号:64  数据0
-I/BcService: 输出140:  编号:65  数据0
-I/BcService: 输出140:  编号:66  数据0
-I/BcService: 输出140:  编号:67  数据0
-I/BcService: 输出140:  编号:68  数据0
-I/BcService: 输出140:  编号:69  数据0
-I/BcService: 输出140:  编号:70  数据0
-I/BcService: 输出140:  编号:71  数据0
-I/BcService: 输出140:  编号:72  数据0
-I/BcService: 输出140:  编号:73  数据0
-I/BcService: 输出140:  编号:74  数据0
-I/BcService: 输出140:  编号:75  数据3
-I/BcService: 输出140:  编号:76  数据-109
-I/BcService: 输出140:  编号:77  数据-121
-I/BcService: 输出140:  编号:78  数据0
-I/BcService: 输出140:  编号:79  数据0
-I/BcService: 输出140:  编号:80  数据0
-I/BcService: 输出140:  编号:81  数据2
-I/BcService: 输出140:  编号:82  数据56
-I/BcService: 输出140:  编号:83  数据0
-I/BcService: 输出140:  编号:84  数据0
-I/BcService: 输出140:  编号:85  数据-91
-I/BcService: 输出140:  编号:86  数据-97
-I/BcService: 输出140:  编号:87  数据0
-I/BcService: 输出140:  编号:88  数据9
-I/BcService: 输出140:  编号:89  数据-107
-I/BcService: 输出140:  编号:90  数据59
-I/BcService: 输出140:  编号:91  数据0
-I/BcService: 输出140:  编号:92  数据27
-I/BcService: 输出140:  编号:93  数据0
-I/BcService: 输出140:  编号:94  数据28
-I/BcService: 输出140:  编号:95  数据-1
-I/BcService: 输出140:  编号:96  数据-30
-I/BcService: 输出140:  编号:97  数据-1
-I/BcService: 输出140:  编号:98  数据-30
-I/BcService: 输出140:  编号:99  数据-1
-I/BcService: 输出140:  编号:100 数据-30
+I/BcService: Output 140:  Offset: 51  Data: -82
+I/BcService: Output 140:  Offset: 52  Data: 12
+I/BcService: Output 140:  Offset: 53  Data: -80
+I/BcService: Output 140:  Offset: 54  Data: 0
+I/BcService: Output 140:  Offset: 55  Data: 0
+I/BcService: Output 140:  Offset: 56  Data: 0
+I/BcService: Output 140:  Offset: 57  Data: 0
+I/BcService: Output 140:  Offset: 58  Data: 0
+I/BcService: Output 140:  Offset: 59  Data: 0
+I/BcService: Output 140:  Offset: 60  Data: 0
+I/BcService: Output 140:  Offset: 61  Data: 0
+I/BcService: Output 140:  Offset: 62  Data: 0
+I/BcService: Output 140:  Offset: 63  Data: 0
+I/BcService: Output 140:  Offset: 64  Data: 0
+I/BcService: Output 140:  Offset: 65  Data: 0
+I/BcService: Output 140:  Offset: 66  Data: 0
+I/BcService: Output 140:  Offset: 67  Data: 0
+I/BcService: Output 140:  Offset: 68  Data: 0
+I/BcService: Output 140:  Offset: 69  Data: 0
+I/BcService: Output 140:  Offset: 70  Data: 0
+I/BcService: Output 140:  Offset: 71  Data: 0
+I/BcService: Output 140:  Offset: 72  Data: 0
+I/BcService: Output 140:  Offset: 73  Data: 0
+I/BcService: Output 140:  Offset: 74  Data: 0
+I/BcService: Output 140:  Offset: 75  Data: 3
+I/BcService: Output 140:  Offset: 76  Data: -109
+I/BcService: Output 140:  Offset: 77  Data: -121
+I/BcService: Output 140:  Offset: 78  Data: 0
+I/BcService: Output 140:  Offset: 79  Data: 0
+I/BcService: Output 140:  Offset: 80  Data: 0
+I/BcService: Output 140:  Offset: 81  Data: 2
+I/BcService: Output 140:  Offset: 82  Data: 56
+I/BcService: Output 140:  Offset: 83  Data: 0
+I/BcService: Output 140:  Offset: 84  Data: 0
+I/BcService: Output 140:  Offset: 85  Data: -91
+I/BcService: Output 140:  Offset: 86  Data: -97
+I/BcService: Output 140:  Offset: 87  Data: 0
+I/BcService: Output 140:  Offset: 88  Data: 9
+I/BcService: Output 140:  Offset: 89  Data: -107
+I/BcService: Output 140:  Offset: 90  Data: 59
+I/BcService: Output 140:  Offset: 91  Data: 0
+I/BcService: Output 140:  Offset: 92  Data: 27
+I/BcService: Output 140:  Offset: 93  Data: 0
+I/BcService: Output 140:  Offset: 94  Data: 28
+I/BcService: Output 140:  Offset: 95  Data: -1
+I/BcService: Output 140:  Offset: 96  Data: -30
+I/BcService: Output 140:  Offset: 97  Data: -1
+I/BcService: Output 140:  Offset: 98  Data: -30
+I/BcService: Output 140:  Offset: 99  Data: -1
+I/BcService: Output 140:  Offset: 100 Data: -30
 
-I/BcService: 输出140:  编号:101  数据-1
-I/BcService: 输出140:  编号:102  数据-30
-I/BcService: 输出140:  编号:103  数据9
-I/BcService: 输出140:  编号:104  数据9
-I/BcService: 输出140:  编号:105  数据0
-I/BcService: 输出140:  编号:106  数据3
-I/BcService: 输出140:  编号:107  数据-24
-I/BcService: 输出140:  编号:108  数据0
-I/BcService: 输出140:  编号:109  数据23
-I/BcService: 输出140:  编号:110  数据0
-I/BcService: 输出140:  编号:111  数据0
-I/BcService: 输出140:  编号:112  数据0
-I/BcService: 输出140:  编号:113  数据0
-I/BcService: 输出140:  编号:114  数据0
-I/BcService: 输出140:  编号:115  数据8
-I/BcService: 输出140:  编号:116  数据12
-I/BcService: 输出140:  编号:117  数据-80
-I/BcService: 输出140:  编号:118  数据17
-I/BcService: 输出140:  编号:119  数据12
-I/BcService: 输出140:  编号:120  数据-105
-I/BcService: 输出140:  编号:121  数据12
-I/BcService: 输出140:  编号:122  数据-87
-I/BcService: 输出140:  编号:123  数据22
-I/BcService: 输出140:  编号:124  数据0
-I/BcService: 输出140:  编号:125  数据2
-I/BcService: 输出140:  编号:126  数据0
-I/BcService: 输出140:  编号:127  数据0
-I/BcService: 输出140:  编号:128  数据0
-I/BcService: 输出140:  编号:129  数据1
-I/BcService: 输出140:  编号:130  数据2
-I/BcService: 输出140:  编号:131  数据-90
-I/BcService: 输出140:  编号:132  数据0
-I/BcService: 输出140:  编号:133  数据0
-I/BcService: 输出140:  编号:134  数据0
-I/BcService: 输出140:  编号:135  数据0
-I/BcService: 输出140:  编号:136  数据-128
-I/BcService: 输出140:  编号:137  数据15
-I/BcService: 输出140:  编号:138  数据32
-I/BcService: 输出140:  编号:139  数据-4
+I/BcService: Output 140:  Offset: 101  Data: -1
+I/BcService: Output 140:  Offset: 102  Data: -30
+I/BcService: Output 140:  Offset: 103  Data: 9
+I/BcService: Output 140:  Offset: 104  Data: 9
+I/BcService: Output 140:  Offset: 105  Data: 0
+I/BcService: Output 140:  Offset: 106  Data: 3
+I/BcService: Output 140:  Offset: 107  Data: -24
+I/BcService: Output 140:  Offset: 108  Data: 0
+I/BcService: Output 140:  Offset: 109  Data: 23
+I/BcService: Output 140:  Offset: 110  Data: 0
+I/BcService: Output 140:  Offset: 111  Data: 0
+I/BcService: Output 140:  Offset: 112  Data: 0
+I/BcService: Output 140:  Offset: 113  Data: 0
+I/BcService: Output 140:  Offset: 114  Data: 0
+I/BcService: Output 140:  Offset: 115  Data: 8
+I/BcService: Output 140:  Offset: 116  Data: 12
+I/BcService: Output 140:  Offset: 117  Data: -80
+I/BcService: Output 140:  Offset: 118  Data: 17
+I/BcService: Output 140:  Offset: 119  Data: 12
+I/BcService: Output 140:  Offset: 120  Data: -105
+I/BcService: Output 140:  Offset: 121  Data: 12
+I/BcService: Output 140:  Offset: 122  Data: -87
+I/BcService: Output 140:  Offset: 123  Data: 22
+I/BcService: Output 140:  Offset: 124  Data: 0
+I/BcService: Output 140:  Offset: 125  Data: 2
+I/BcService: Output 140:  Offset: 126  Data: 0
+I/BcService: Output 140:  Offset: 127  Data: 0
+I/BcService: Output 140:  Offset: 128  Data: 0
+I/BcService: Output 140:  Offset: 129  Data: 1
+I/BcService: Output 140:  Offset: 130  Data: 2
+I/BcService: Output 140:  Offset: 131  Data: -90
+I/BcService: Output 140:  Offset: 132  Data: 0
+I/BcService: Output 140:  Offset: 133  Data: 0
+I/BcService: Output 140:  Offset: 134  Data: 0
+I/BcService: Output 140:  Offset: 135  Data: 0
+I/BcService: Output 140:  Offset: 136  Data: -128
+I/BcService: Output 140:  Offset: 137  Data: 15
+I/BcService: Output 140:  Offset: 138  Data: 32
+I/BcService: Output 140:  Offset: 139  Data: -4
 
 5-17 16.20
 accept() failed
