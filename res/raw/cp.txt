@@ -1,149 +1,160 @@
-AtyParam2.java :
-(蓝牙)发送0XDBDB00000000返回140字节数据解析
-(BMS串口)发送0X5A5A00000000
+AtyParam2.java:
+(Bluetooth) Send 0xDBDB00000000 Returns 140 bytes of data parsed
+(BMS serial port) Send 0x5A5A00000000
 
-帧头 （0-3）：0xAA 0X55 0XAA 0XFF
-电压数据（4-69）： 0.000 V
-电流（70-73）：int  0.0  A
-剩余电量百分比（74）：u8
-电池物理容量（75-78）：u32  .000000  AH
-电池剩余容量（79-82）：u32  .000000  AH
-电池总循环容量（83-86）：u32  .000AH
-从开机进行累加 时间秒	（87-90）：u32 S
-实际温度（91-102）： short  度
+Frame Header (0-3):                                                         0xAA 0x55 0xAA 0xFF
+Voltage data (4-69):                                                        ???     0.000 V
+Current (70-73):                                                            int     0.0 A
+Percentage of remaining battery (74):                                       u8
+Battery physical capacity (75-78):                                          u32     .000000 AH
+The remaining battery capacity (79-82):                                     u32     .000000 AH
+Total battery cycle capacity (83-86):                                       u32     .000AH
+Accumulated from boot time seconds (87-90):                                 u32     S
+Actual temperature (91-102):                                                short   degree
 
-充电mos管状态标志(103): u8  （下文有解析）
-放电mos管状态标志(104): u8  （下文有解析）
-均衡状态标志(105): u8  （下文有解析）
+Charge mos tube status flag (103):                                          u8      (after analysis)
+Discharge mos tube status flag (104):                                       u8      (after analysis)
+Balanced status flag (105):                                                 u8      (resolved below)
 
-轮胎长度(106-107) :  u16 MM
-一周脉冲次数(108-109) :  u16  N
-继电器开关(110):u8 不显示
+Tire length (106-107) :                                                     u16     MM
+The number of pulses per week (108-109) :                                   u16     N
+Relay switch (110):                                                         u8      does not show
 
-当前功率(111-114)： int   W
-最高单体串数(115)： u8   无
-最高单体（116-117）： u16   0.000V
-最低单体串数（118）： u8  无
-最低单体（119-120）： u16   0.000V
-平均值（121-122）： u16     0.000V
-有效电池数量（123）： u8 S
+Current Power (111-114):                                                    int     W
+Maximum number of monomer strings (115):                                    u8      None
+The highest monomer (116-117):                                              u16     0.000V
+Lowest monomer string (118):                                                u8      None
+Lowest monomer (119-120):                                                   u16     0.000V
+Average (121-122):                                                          u16     0.000V
+The number of effective batteries (123):                                    u8      S
 
-检测的放电管 D-S极之间的电压(124-125)：u16  0.0 V  不用显示
-放电MOS管驱动电压(126-127)：u16  0.0V  不用显示
-充电MOS管驱动电压(128-129)：u16  0.0V  不用显示
-检测到的电流为0时比较器初值(130-131);u16  不用显示
-控制均衡对应位 为1 则均衡(1-32位 对应1-32串均衡)(132-135) u32 对应位为1  在对应的电压上显示颜色
-系统日志发送给串口数据， 状态 ：0-4  电池编号：5-9  先后顺序：10-14  充电放电：15（1放电，0充电）(136-137)u16
-系统日志(136-137)：
+Detected discharge tube Voltage between D-S poles (124-125):                u16     0.0V not to be displayed
 
-和校验（138-139）：2字节
+Discharge MOS transistor driving voltage (126-127):                         u16     0.0V not display
 
+Charging MOS tube driving voltage (128-129):                                u16     0.0V not display
 
+When the detected current is 0, the comparator initial value (130-131):     u16     is not displayed
+    Control equalization corresponds to 1 equalization 
 
-//充电mos管状态标志
-//值：0 关闭
-//值：1	开启
-//值：2	过压保护
-//值：3 过流保护
-//值：4	电池充满
-//值：5	总压过压
-//值：6 电池过温
-//值：7 功率过温
-//值：8 电流异常
-//值：9 均衡线掉串
-//值：10 主板过温
-//值：13 放电管异常
-//值：15 手动关闭
+(1-32 bits corresponds to 1-32 string equalization) (132-135):              u32 
+    corresponds to bit 1 displays the color at the corresponding voltage
 
+The system log is sent to the serial port data (136-137):                   u16
+    Status: 0-4 
+    Battery number: 5-9 
+    Sequential order: 10-14 
+    Charge and discharge: 15 (1 discharge, 0 charge) 
 
+System logs (136-137):
 
-//放电mos管状态标志
-//值：0 关闭
-//值：1	开启
-//值：2	过放保护
-//值：3 过流保护
-//值：5	总压欠压
-//值：6 电池过温
-//值：7 功率过温
-//值：8 电流异常
-//值：9 均衡线掉串
-//值：10 主板过温
-//值：11 充电开启
-//值：12 短路保护
-//值：13 放电管异常
-//值：14 启动异常
-//值：15 手动关闭
+Sum check (138-139):                                                        2 bytes
+
+// charge mos tube status flag
+// value: 0     off
+// value: 1     open
+// value: 2     Overvoltage protection
+// value: 3     Over current protection
+// value: 4     battery full
+// value: 5     total overpressure
+// value: 6     battery over temperature
+// value: 7     power over temperature
+// value: 8     Abnormal current
+// value: 9     Balanced line dropped string
+// value: 10    motherboard over temperature
+// value: 13    Discharge tube abnormality
+// value: 15    Manually closed
 
 
-
-//均衡状态标志
-//值：0 关闭
-//值：1	超过极限均衡
-//值：2	充电压差均衡
-//值：3 均衡过温
-//值：4 自动均衡
-//值：10 主板过温
-
-
-
-/***************设置参数与读取参数******************/
-1-2：帧头 0xA5-0xA5 向BMS写入数据   0x5A-0x5A 从BMS读出数据   0xDB-0xDB 向屏幕主板写入数据
-3：  地址
-4-5：数据
-6：  和校验
-
-BMS控制地址
-247  //关闭BMS电源
-248  //电流归零
-249  //放电MOS管开关  数据为0 强制关闭放电管
-250  //充电MOS管开关  数据为0 强制关闭充电官
-251  //将参数更改成铁锂
-252  //电池自动均衡
-253  //出厂设置按钮
-254  //重启按钮
-255  //应用按钮
-
-AtyParam.java   采用这种解析
-/************************设置与读取参数地址****************************/
-1	//单体过压告警电压
-2	//单体欠压告警电压
-3	//单体过压保护电压
-4	//单体欠压保护电压
-5	//单体过压恢复
-6	//单体欠压恢复
-
-7	//总压过压保护电压
-8	//总压欠压保护电压
-9	//充电过流保护  000.0安
-10  //充电过流保护延时 	秒
-11  //放电过流保护  	安
-12  //放电过流保护延时	秒
-13	//均衡极限电压
-14	//充电时均衡起控电压
-15  //均衡压差
-16	//均衡电流 取值(1-20)
-17	//系统基准电压
-18 	//电流传感器量程
-19  //启动电流 （A）
-20  //短路保护电流 （A）
-21  //短路保护延时 （us）
-22  //无电流自动待机时间（秒）
-23  //总电压AD值转换成实际电压值的参数0000(4位整数)
-24	//设置的电池串数
-25	//电池高温充电保护
-26	//电池高温充电恢复
-27	//电池高温放电保护
-28	//电池高温放电恢复
-29	//功率管高温保护
-30	//功率管高温恢复
-31 	//（31.32）电池物理容量  .000 000AH (2个空间)(76低，77高)
-33	//(33.34)剩余容量  .000 000AH (2个空间)(78低，79高)
-35	//(35.36)总共循环容量 .000AH (2个空间)(80低，81高)
-
-41 //轮胎长度
-42  // 一周脉冲次数
-
-(51+x) 	//d电池内阻（51-74）
+// Discharge mos tube status flag
+// value: 0     off
+// value: 1     open
+// value: 2     over-discharge protection
+// value: 3     Over current protection
+// value: 5     total pressure undervoltage
+// value: 6     battery over temperature
+// value: 7     power over temperature
+// value: 8     Abnormal current
+// value: 9     Balanced line dropped string
+// value: 10    motherboard over temperature
+// value: 11    charge on
+// value: 12    Short circuit protection
+// value: 13    Discharge tube abnormality
+// value: 14    start exception
+// value: 15    Manually closed
 
 
-100 //运行时间（70-71两个空间）
+// Balanced status flag
+// value: 0     off
+// value: 1     exceeds the limit equilibrium
+// value: 2     Charge differential pressure balance
+// value: 3     Balanced over temperature
+// value: 4     automatic equalization
+// value: 10    motherboard over temperature
+
+
+
+/*************** Set parameters and read parameters ******************/
+1-2:    Frame header 
+    ->  0xA5 0xA5 Write data to BMS
+    ->  0x5A 0x5A Read data from BMS  
+    ->  0xDB 0xDB Write data to the screen?main board
+3:      Address
+4-5:    Data
+6:      Checksum
+
+BMS control address
+247  //Close BMS power
+248  //Current zeroing
+249  //Discharge MOS tube switch    Data is 0   Forced to close the discharge tube
+250  //Charge MOS tube switch       Data is 0   Forced shutdown charge officer
+251  //Change the parameter to iron lithium
+252  //The battery is automatically balanced
+253  //Factory Settings button
+254  //Reboot button
+255  //apply button
+
+AtyParam.java uses this parsing
+/************************ Setting and Reading Parameter Addresses ****************************/
+1	//monomer over-voltage alarm voltage
+2	//single undervoltage warning voltage
+3	//single overvoltage protection voltage
+4	//single undervoltage protection voltage
+5	//monomer overvoltage recovery
+6	//monomer undervoltage recovery
+
+7	//Total voltage overvoltage protection voltage
+8	//Total voltage undervoltage protection voltage
+9	//Charge Overcurrent Protection  000.0A
+10  //Charging Overcurrent Protection Delay Seconds
+11  //Discharge Overcurrent Protection
+12  //Discharge Overcurrent Protection Delay Seconds
+13	//Equilibrium voltage limit
+14	//Equilibrium starting voltage during charging
+15  //Equal pressure difference
+16	//Equilibrium current value (1-20)
+17	//System Voltage Reference
+18 	//Current sensor range
+19  //Start Current (A)
+20  //Short Circuit Protection Current (A)
+21  //short circuit protection delay (us)
+22  //No current automatic standby time (seconds)
+23  //The total voltage AD value is converted into the actual voltage value parameter 0000 (4-digit integer)
+24	//set the number of battery strings
+25	//battery high temperature charge protection
+26	//Battery High Temperature Charge Recovery
+27	//Battery High Temperature Discharge Protection
+28	//Battery High Temperature Discharge Recovery
+29	//Power tube high temperature protection
+30	//Power tube high temperature recovery
+31 	//31.32）Battery Physical Capacity .000 000AH (2 Spaces) (76 Low, 77 High)
+33	//(33.34) remaining capacity .000 000AH (2 spaces) (78 low, 79 high)
+35	//(35.36) Total circulation capacity .000AH (2 spaces) (80 low, 81 high)
+
+41  //tire length
+42  //number of pulses per week
+
+(51+x) 	//d battery internal resistance（51-74）
+
+
+100 //Runtime (70-71 two spaces)
