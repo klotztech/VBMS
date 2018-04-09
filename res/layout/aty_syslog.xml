@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent"
+    <LinearLayout app:background="@drawable/shape_blue1" app:padding="0dp" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <TextView app:textSize="16dp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/run_temp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/run_timp" app:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout app:background="@color/colorTextGray3" app:padding="0dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:divider="@color/colorBlue3">
+        <TextView app:textSize="18dp" app:textColor="@color/colorBlack" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/fab_margin" app:text="@string/ch_mack" />
+        <TextView app:textSize="18dp" app:textColor="@color/colorBlack" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ch_mos" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/fab_margin" app:text="@string/ch_state" />
+    </LinearLayout>
+    <LinearLayout app:background="@color/colorTextGray3" app:padding="0dp" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <TextView app:textSize="18dp" app:textColor="@color/colorBlack" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/fab_margin" app:text="@string/dis_mack" app:layout_weight="0.0" />
+        <TextView app:textSize="18dp" app:textColor="@color/colorBlack" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/dis_mos" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/fab_margin" app:text="@string/dis_state" app:layout_weight="0.0" />
+    </LinearLayout>
+    <LinearLayout app:background="@color/colorTextGray3" app:padding="0dp" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <TextView app:textSize="18dp" app:textColor="@color/colorBlack" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/fab_margin" app:text="@string/j_h_mack" app:layout_weight="0.0" />
+        <TextView app:textSize="18dp" app:textColor="@color/colorBlack" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/j_h" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/fab_margin" app:text="@string/j_h_state" app:layout_weight="0.0" />
+    </LinearLayout>
+    <TextView app:id="@+id/tvTest" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/fab_margin" app:text="Log:" style="@style/style_tv_screen" />
+    <GridView app:id="@+id/lv" app:layout_width="match_parent" app:layout_height="wrap_content" app:numColumns="UNKNOWN_DATA_0x1" app:divider="@color/colorWhite" app:layout_weight="1.0" />
+    <LinearLayout app:orientation="horizontal" app:paddingTop="4dp" app:visibility="invisible" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_marginLeft="@dimen/fab_margin" app:layout_marginRight="@dimen/fab_margin" app:layout_marginBottom="4dp">
+        <Button app:id="@+id/btn1" app:visibility="invisible" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginRight="@dimen/fab_margin" app:text="Button 1" app:layout_weight="1.0" style="@style/style_btn_red1" />
+        <Button app:textSize="14dp" app:id="@+id/btnSync" app:visibility="invisible" app:layout_width="match_parent" app:layout_height="match_parent" app:text="@string/du_bms_can_shu" app:layout_weight="1.0" style="@style/style_btn_green1" />
+    </LinearLayout>
+    <LinearLayout app:orientation="horizontal" app:id="@+id/llTab" app:background="@color/colorTextGray3" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3001">
+        <TextView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/tvMain" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3001" app:text="@string/mainAty" app:layout_weight="1.0" />
+        <TextView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/tvParam1" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3001" app:text="@string/can_shu_set_title" app:layout_weight="1.0" />
+        <TextView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:background="@color/colorTextGray1" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3001" app:text="@string/can_shu_set_title2" app:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

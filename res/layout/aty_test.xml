@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+        <TextView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="测试界面" />
+        <TextView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/tv1" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="test1" app:layout_weight="1.0" />
+        <TextView app:textColor="@color/colorRed1" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/tv2" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="test2" app:layout_weight="1.0" />
+        <Button app:id="@+id/btn1" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="显示到test2" />
+        <Button app:id="@+id/btn2" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="解析" />
+    </LinearLayout>
+</ScrollView>

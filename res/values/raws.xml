@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="cp">res/raw/cp.txt</raw>
+    <raw name="get140bit">res/raw/get140bit.txt</raw>
+    <raw name="log">res/raw/log.txt</raw>
+</resources>

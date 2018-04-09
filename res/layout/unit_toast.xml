@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="@drawable/shape_blue1" app:layout_width="wrap_content" app:layout_height="wrap_content">
+    <TextView app:textColor="@color/colorWhite" app:id="@+id/tvMsg" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/fab_margin" app:text="Example" />
+</LinearLayout>

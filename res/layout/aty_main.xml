@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/screen" android:background="@drawable/shape_blue1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Status" />
+    <TextView android:id="@+id/test" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="test" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/colorTextGray3" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btnScan" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x4801" android:layout_height="UNKNOWN_DATA_0x1e01" android:text="@string/myscan" style="@style/style_btn_red1" />
+        <Button android:textSize="14dp" android:id="@+id/btnDisc" android:layout_width="UNKNOWN_DATA_0x7301" android:layout_height="match_parent" android:text="@string/mydiscoverable" style="@style/style_btn_red1" />
+        <Button android:id="@+id/btnConn" android:layout_width="UNKNOWN_DATA_0x7301" android:layout_height="match_parent" android:layout_marginLeft="4dp" android:text="@string/lian_jie_she_bei" style="@style/style_btn_green1" />
+        <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sys_log" android:layout_width="UNKNOWN_DATA_0x7a01" android:layout_height="match_parent" android:layout_marginLeft="4dp" android:text="@string/sys_log" style="@style/style_btn_red1" />
+    </LinearLayout>
+    <ListView android:id="@+id/in" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xac01" android:stackFromBottom="true" android:transcriptMode="alwaysScroll" android:divider="@color/colorWhite" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/edit_yan_zheng_password" android:background="@drawable/style_et1" android:layout_width="UNKNOWN_DATA_0x11801" android:layout_height="wrap_content" android:layout_margin="2dp" android:hint="Enter password" android:layout_weight="22.0" />
+        <Button android:id="@+id/yan_zheng_password" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2a01" android:layout_margin="4dp" android:text="@string/yan_zheng_password" style="@style/style_btn_green1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/edit_set_password" android:background="@drawable/style_et1" android:layout_width="UNKNOWN_DATA_0x6c01" android:layout_height="wrap_content" android:layout_margin="2dp" android:hint="New password" android:ems="10" android:layout_weight="1.0" />
+        <Button android:id="@+id/set_password" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2a01" android:layout_margin="4dp" android:text="@string/set_password" style="@style/style_btn_green1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-6dp">
+        <Button android:id="@+id/Tai_li" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:text="@string/Tai_li" android:layout_weight="1.0" style="@style/style_btn_blue1" />
+        <Button android:id="@+id/No_ChMOS" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:text="@string/No_ChMOS" android:layout_weight="1.0" style="@style/style_btn_blue1" />
+        <Button android:id="@+id/No_DisMOS" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:text="@string/No_DisMOS" android:layout_weight="1.0" style="@style/style_btn_blue1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-6dp">
+        <Button android:id="@+id/button_bluetooth" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:text="@string/button_bluetooth" android:layout_weight="1.0" style="@style/style_btn_blue1" />
+        <Button android:id="@+id/OFF_ChMOS" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:text="@string/OFF_ChMOS" android:layout_weight="1.0" style="@style/style_btn_blue1" />
+        <Button android:id="@+id/OFF_DisMOS" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:text="@string/OFF_DisMOS" android:layout_weight="1.0" style="@style/style_btn_blue1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-6dp">
+        <Button android:id="@+id/btn1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:text="@string/button_ying_yong" android:layout_weight="1.0" style="@style/style_btn_blue1" />
+        <Button android:id="@+id/btn2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:text="@string/chu_chang_she_zhi" android:layout_weight="1.0" style="@style/style_btn_blue1" />
+        <Button android:id="@+id/btn3" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:text="@string/button_ping_mu_qie_huan" android:layout_weight="1.0" style="@style/style_btn_blue1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-6dp">
+        <Button android:id="@+id/btn4" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:text="@string/jiao_zhun" android:layout_weight="1.0" style="@style/style_btn_blue1" />
+        <Button android:id="@+id/btn5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:text="@string/guan_ji" android:layout_weight="1.0" style="@style/style_btn_blue1" />
+        <Button android:id="@+id/btn6" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:text="@string/ping_mu_sw" android:layout_weight="1.0" style="@style/style_btn_blue1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/colorTextGray3" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/colorTextGray1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:text="@string/mainAty" android:layout_weight="1.0" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/param1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:text="@string/can_shu_set_title" android:layout_weight="1.0" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/param2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:text="@string/can_shu_set_title2" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

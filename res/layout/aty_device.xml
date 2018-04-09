@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textColor="#fff" android:id="@+id/title_paired_devices" android:background="#666" android:paddingLeft="5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/title_paired_devices" />
+    <ListView android:id="@+id/paired_devices" android:layout_width="match_parent" android:layout_height="wrap_content" android:stackFromBottom="true" android:layout_weight="1.0" />
+    <TextView android:textColor="#fff" android:id="@+id/title_new_devices" android:background="#666" android:paddingLeft="5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/title_other_devices" />
+    <ListView android:id="@+id/new_devices" android:layout_width="match_parent" android:layout_height="wrap_content" android:stackFromBottom="true" android:layout_weight="2.0" />
+    <Button android:id="@+id/button_scan" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401" android:layout_margin="4dp" android:text="@string/button_scan" style="@style/style_btn_green1" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VBMS</string>
+    <string name="bt_not_enabled_leaving">Bluetooth is not enabled. Off Bluetooth chat.</string>
+    <string name="button_ping_mu_qie_huan">flip screens</string>
+    <string name="button_scan">Scan New Device</string>
+    <string name="button_ying_yong">Reboot</string>
+    <string name="can_shu_set_title">Param1</string>
+    <string name="can_shu_set_title2">Param2</string>
+    <string name="can_zhu_she_zhi_biao_ti">Param1(Click the item column for help)</string>
+    <string name="can_zhu_she_zhi_biao_ti2">Param2</string>
+    <string name="chu_chang_she_zhi">Factory reset</string>
+    <string name="device_param">Device Param</string>
+    <string name="du_bms_can_shu">Read BMS params</string>
+    <string name="guan_ji">Fe-Li param</string>
+    <string name="jiao_zhun">auto equalization</string>
+    <string name="lian_jie_she_bei">Connect</string>
+    <string name="mainAty">MainView</string>
+    <string name="mydiscoverable">Visible</string>
+    <string name="myscan">Scan</string>
+    <string name="none_found">None Found</string>
+    <string name="none_paired">None Paired</string>
+    <string name="not_connected">Not Connected</string>
+    <string name="param1">Setting1</string>
+    <string name="param2">Setting2</string>
+    <string name="ping_mu_sw">Current zeroing</string>
+    <string name="project">Project</string>
+    <string name="scanning">Scanning...</string>
+    <string name="select_device">Select Device</string>
+    <string name="send">Send</string>
+    <string name="send_fail">Sendfail</string>
+    <string name="set">Set</string>
+    <string name="set_param">Set Param</string>
+    <string name="sync">Sync</string>
+    <string name="title_connected_to">Connected To:</string>
+    <string name="title_connecting">Connecting...</string>
+    <string name="title_not_connected">Not Connected</string>
+    <string name="title_other_devices">Other Devices</string>
+    <string name="title_paired_devices">Paired Devices</string>
+</resources>

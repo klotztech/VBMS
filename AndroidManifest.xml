@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.lecheng.hello.ant_bms" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="25" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <meta-data android:name="android.support.VERSION" android:value="25.3.1" />
+    <application android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:label="@string/app_name" android:icon="@drawable/icon" android:debuggable="true">
+        <activity android:label="@string/app_name" android:name="com.lecheng.hello.ant_bms.AtyMain" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.AppCompat.Dialog.Alert" android:label="@string/select_device" android:name="com.lecheng.hello.ant_bms.AtyDeviceList" android:configChanges="keyboardHidden|orientation" />
+        <activity android:label="@string/can_zhu_she_zhi_biao_ti" android:name="com.lecheng.hello.ant_bms.AtyParam1" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lecheng.hello.ant_bms.AtyParam2" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.AppCompat.Dialog.Alert" android:label="System Log" android:name="com.lecheng.hello.ant_bms.AtySysLog" />
+    </application>
+</manifest>

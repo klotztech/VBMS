@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:background="@drawable/shape_blue1" android:padding="@dimen/fab_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16dp" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/test2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/project" android:layout_weight="1.0" />
+        <TextView android:textSize="16dp" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_param" android:layout_weight="1.0" />
+        <TextView android:textSize="16dp" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_param" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ListView android:id="@+id/listView" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@color/colorWhite" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/button1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:text="@string/du_bms_can_shu" android:layout_weight="1.0" android:onClick="Button1_click" style="@style/style_btn_blue1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/colorTextGray3" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tvMain" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:text="@string/mainAty" android:layout_weight="1.0" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/colorTextGray1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:text="@string/can_shu_set_title" android:layout_weight="1.0" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tvParam2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:text="@string/can_shu_set_title2" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>
